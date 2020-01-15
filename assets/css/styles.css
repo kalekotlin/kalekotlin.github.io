@@ -3,6 +3,9 @@ main
     display: flex;
     justify-content: center;
     width: 100%;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    font-size: 1.25em;
 }
 
 #mainContent
@@ -15,6 +18,20 @@ main
     padding: 1em;
     display: flex;
     justify-content: center;
+}
+
+#home h1
+{
+    color: lightskyblue;
+}
+
+#intro
+{
+    width: 60%
+}
+#intro p
+{
+    letter-spacing: 0.1em;
 }
 
 #navbar
