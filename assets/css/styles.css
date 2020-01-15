@@ -1,4 +1,38 @@
-h1 
+main
 {
-    color: green;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
+
+#mainContent
+{
+    background-color: white;
+    margin-top: 3em;
+    position: fixed;
+    width: 50%;
+    height: 90%;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar
+{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin-left: auto;
+}
+#navItem
+{
+    padding: 0.5em;
+}
+
+#post
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
