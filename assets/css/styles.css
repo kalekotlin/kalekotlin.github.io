@@ -28,11 +28,98 @@ main
 
 #intro
 {
-    width: 60%
+    width: 60%;
 }
-#intro p
+#skills
 {
-    letter-spacing: 0.1em;
+    display: flex;
+    flex-direction: row;
+}
+#skillGroup1
+{
+    display: flex;
+    flex-direction: column;
+}
+#skillGroup2
+{
+    display: flex;
+    flex-direction: column;
+}
+#programming
+{
+    background-color: lightskyblue;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+#progTitle
+{
+    display: flex;
+    justify-content: center;
+}
+#langs
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#techs
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#progGroup1
+{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+#progGroup2
+{
+   margin-left: 2em;
+    margin-right: 2em;
+}
+#progGroup3
+{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+#techGroup1
+{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+#techGroup2
+{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+#techGroup3
+{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+#technologies
+{
+    background-color: lightskyblue;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+#techTitle
+{
+    display: flex;
+    justify-content: center;
+}
+#langs p
+{
+    font-size: 0.75em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+#techs p
+{
+    font-size: 0.75em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 #navbar
