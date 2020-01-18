@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title> 
+    <script type="text/javascript" src="../assets/js/fadeEffect/index.js"></script>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
   </head>
@@ -11,10 +12,10 @@
         <div id="navbar">
             {% include navigation.html %}
         </div>
-        <div id="mainContent">
+        <div class="mainContent">
             {{ content }}
         </div>
     </main>
   </body>
-  <script type="text/javascript" src="../assets/js/index.js"></script>
+  <script type="text/javascript" src="../assets/js/mobileDetection/index.js"></script>
 </html>

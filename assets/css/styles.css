@@ -12,14 +12,16 @@ main
     color: #2b2b2b;
 }
 
-#mainContent
+.mainContent
 {
     padding: 1em;
     display: flex;
     height: 95vh;
     justify-content: center;
     background-color: #fbfbfb;
+    opacity: 0;
 }
+
 
 #generalInfo
 {
@@ -61,9 +63,14 @@ main
 }
 
 /*Intro*/
-#intro
+#mainIntro
 {
     width: 60%;
+}
+#subIntro 
+{
+    font-size: 0.75em;
+    width: 90%;
 }
 #skills
 {
@@ -186,7 +193,7 @@ main
 }
 #projectList a
 {
-    background-color: lightskyblue;
+    background-color: lightcoral;
     display: flex;
     justify-content: center;
     margin-top: 2em;
