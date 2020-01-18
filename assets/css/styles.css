@@ -1,31 +1,62 @@
+/*General*/
 main
 {
+    font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     width: 100%;
     letter-spacing: 0.1em;
     line-height: 2em;
     font-size: 1.25em;
-    overflow: auto;
 }
 
 #mainContent
 {
-    background-color: white;
-    margin-top: 3em;
-    position: fixed;
-    width: 50%;
-    height: 90%;
     padding: 1em;
     display: flex;
+    height: 95vh;
     justify-content: center;
 }
 
+#generalInfo
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#divider
+{
+    background-color: lightskyblue;
+    height: 0.1em;
+    margin: 3em;
+}
+
+#home
+{
+    width: 50%;
+    padding: 3em;
+}
 #home h1
 {
     color: lightskyblue;
 }
 
+/*Navigation*/
+#navbar
+{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin-left: auto; 
+    height: 5vh;
+}
+#navItem
+{
+    padding: 0.5em;
+}
+
+/*Intro*/
 #intro
 {
     width: 60%;
@@ -34,6 +65,7 @@ main
 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 #skillGroup1
 {
@@ -45,6 +77,8 @@ main
     display: flex;
     flex-direction: column;
 }
+
+/*Programming section*/
 #programming
 {
     background-color: lightskyblue;
@@ -62,12 +96,6 @@ main
     flex-direction: row;
     justify-content: center;
 }
-#techs
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 #progGroup1
 {
     margin-left: 2em;
@@ -75,7 +103,7 @@ main
 }
 #progGroup2
 {
-   margin-left: 2em;
+    margin-left: 2em;
     margin-right: 2em;
 }
 #progGroup3
@@ -83,6 +111,21 @@ main
     margin-left: 2em;
     margin-right: 2em;
 }
+#langs p
+{
+    font-size: 0.75em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/*Technology section*/
+#techs
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #techGroup1
 {
     margin-left: 2em;
@@ -109,12 +152,6 @@ main
     display: flex;
     justify-content: center;
 }
-#langs p
-{
-    font-size: 0.75em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-}
 #techs p
 {
     font-size: 0.75em;
@@ -122,18 +159,32 @@ main
     padding-right: 0.5em;
 }
 
-#navbar
+/*Projects section*/
+#projects
 {
     display: flex;
-    width: 50%;
+    flex-direction: column;
     justify-content: center;
-    margin-left: auto;
 }
-#navItem
+#projectTitle
 {
-    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+#projectList
+{
+    display: flex;
+    flex-direction: column;
+}
+#projectList a
+{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
 }
 
+/*Blog posts*/
 #post
 {
     display: flex;
@@ -141,3 +192,12 @@ main
     justify-content: center;
 }
 
+/*Footer*/
+footer
+{
+    display: flex;
+    flex-direction: row;
+    background: gray;
+    justify-content: center;
+    font-size: 0.5em;
+}

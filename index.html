@@ -49,5 +49,37 @@ title: Home
                 </div>
             </div>
         </div>
+        <div id="projects">
+            <p id="projectTitle">Projects:</p>
+            <div id="projectList">
+                <a href="#">Project 1</a>
+                <a href="#">Project 2</a>
+                <a href="#">Project 3</a>
+                <a href="#">Project 4</a>
+            </div>
+        </div>
+        <div id="divider"></div>
+        <div id="blogPosts">
+            <p id="blogTitle">Blog Post:</p>
+            <ul>
+                {% for post in site.posts limit:1 %}
+                  <li>
+                    <p>
+                      <a href="{{ post.url }}">{{ post.title }}</a>
+                    </p>
+                    <p>{{ post.date }}</p>
+                    <p>{{ post.excerpt }}</p>
+                  </li>
+                {% endfor %}
+              </ul>
+        </div>
     </section>  
+    <div id="divider"></div>
+    <footer>
+        <div>
+            <a href="#">Github</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
 </div>
