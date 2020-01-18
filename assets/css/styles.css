@@ -75,103 +75,52 @@ main
 #skills
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-}
-#skillGroup1
-{
-    display: flex;
-    flex-direction: column;
-}
-#skillGroup2
-{
-    display: flex;
-    flex-direction: column;
 }
 
 /*Programming section*/
 #programming
+{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#programming img
 {
-    background-color: lightskyblue;
-    border-radius: 0.5em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 15px 40px rgba(0, 0, 0, 0.05);
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0.1em;
+    margin: 1em;
+    border-radius: 100em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.025), 0 15px 40px rgba(0, 0, 0, 0.05);
 }
 #progTitle
 {
     display: flex;
     justify-content: center;
 }
-#langs
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-#progGroup1
-{
-    margin-left: 2em;
-    margin-right: 2em;
-}
-#progGroup2
-{
-    margin-left: 2em;
-    margin-right: 2em;
-}
-#progGroup3
-{
-    margin-left: 2em;
-    margin-right: 2em;
-}
-#langs p
-{
-    font-size: 0.75em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-}
 
 /*Technology section*/
-#techs
-{
+#technologies
+{ 
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
-#techGroup1
+#technologies img
 {
-    margin-left: 2em;
-    margin-right: 2em;
-}
-#techGroup2
-{
-    margin-left: 2em;
-    margin-right: 2em;
-}
-#techGroup3
-{
-    margin-left: 2em;
-    margin-right: 2em;
-}
-#technologies
-{
-    background-color: lightskyblue;
-    border-radius: 0.5em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 15px 40px rgba(0, 0, 0, 0.05);
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0.1em;
+    margin: 1em;
+    border-radius: 100em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.025), 0 15px 40px rgba(0, 0, 0, 0.05);
 }
 #techTitle
 {
     display: flex;
     justify-content: center;
-}
-#techs p
-{
-    font-size: 0.75em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
 }
 
 /*Projects section*/
