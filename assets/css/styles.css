@@ -1,11 +1,11 @@
 body
 {
-    background-color: #fbfbfb;
+    background-color: #f2f2f2;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1em;
     line-height: 2em;
     font-size: 1.15em;
-    color: #2b2b2b;
+    color: #545c52;
     overflow-x: hidden;
 }
 
@@ -18,30 +18,45 @@ body
 .mainContent
 {
     width: 100%;
-    background-color: #fbfbfb;
+    background-color: #f2f2f2;
     opacity: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #headerWrapper
 {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+}
+#headerWrapper a {
+    margin-top: 1.25em;
 }
 #headerWrapper img
 {
     width: 1em;
     height: 1em;
-    padding: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.25em;
 }
-
+.fab fa-linkedin
+{
+    width: 1em;
+    height: 1em;
+}
 #generalInfo
 {
-    background-color: #fbfbfb;
+    border-radius: 0.25em;
+    background-color: #bbc7ce;
+    width: 60%
 }
 #generalInfo h1
 {
-    color: lightskyblue;
+    color: #545c52;
 }
 #wrapper
 {
@@ -52,15 +67,14 @@ body
 }
 #divider
 {
-    background-color: lightcoral;
-    height: 1px;
-    width: 60%;
-    margin: 3em;
+    background-color: #c4b7cb;
+    height: 2px;
+    width: 75%;
+    margin: 1em;
 }
-
 #home h1
 {
-    color: lightskyblue;
+    color: #98e2c6 !important;
 }
 
 /*Navigation*/
@@ -93,7 +107,7 @@ body
 
 #mainIntro
 {
-    width: 60%;
+    width: 75%;
 }
 #subIntro 
 {
@@ -117,7 +131,8 @@ body
     width: 2.5em;
     height: 2.5em;
     padding: 0.1em;
-    margin: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
     border-radius: 100em;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.025), 0 15px 40px rgba(0, 0, 0, 0.05);
 }
@@ -139,7 +154,8 @@ body
     width: 2.5em;
     height: 2.5em;
     padding: 0.1em;
-    margin: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
     border-radius: 100em;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.025), 0 15px 40px rgba(0, 0, 0, 0.05);
 }
@@ -155,10 +171,7 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 75%;
-}
-#projSubTitle {
-    font-size: 0.75em;
+    width: 100%;
 }
 #projectTitle
 {
@@ -192,18 +205,22 @@ body
 }
 #projectList img
 {
-    width: 25em;
-    height: 20em;
+    width: 15em;
+    height: 10em;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 15px 40px rgba(0, 0, 0, 0.05);
-    border-radius: 0.5em;
+    border-radius: 0.25em;
 }
 #projSubText
 {
-    font-size: 0.5em;
+    font-size: 0.75em;
     width: 75%;
     text-align: center;
 }
 /*Home blog posts*/
+#blogPosts
+{
+    width: 75%
+}
 #blogPosts p
 {
     width: 75%;
