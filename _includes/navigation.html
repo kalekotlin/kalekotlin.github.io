@@ -1,7 +1,8 @@
-<nav>
+<nav id="navigationElement">
     {% for item in site.data.navigation %}
       <a id="navItem" href="{{ item.link }}" {% if page.url == item.link %}style="color: lightcoral;"{% elsif page.url != item.link %}style="color: gray;"{% endif %}>
         {{ item.name }}
       </a>
     {% endfor %}
+    <p></p>
 </nav>

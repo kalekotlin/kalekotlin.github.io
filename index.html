@@ -3,16 +3,22 @@ layout: default
 title: Home
 ---
 
-<div id="home">
-    <section id="generalInfo">
-        <h1>MochaMethod</h1>
+<section id="generalInfo">
+    <div id="wrapper">
         <div id="intro">
+            <div id="headerWrapper">
+                <h1>MochaMethod</h1>
+                <a href="https://github.com/MochaMethod/">
+                    <img src="../assets/image/github-original.svg" rel=nofollow>
+                </a>
+            </div>
             <p id="mainIntro">Howdy? I'm Bryce Crist, a programmer, QA testing technician and release manager, musician, and cook.</p>
             <p id="subIntro">I have been programming in a variety of languages for nearing 5 years now. <br/>In that time, I have become comfortable with a large number of technologies, libraries, and services including AWS Elastic Search, SQS, and Lambda, Twilio call and messaging features, Atlassian products such as Jira and Confluence, and many more. <br/>
             </p>
         </div>
+        <div id="divider"></div>
         <div id="skills">
-            <p id="progTitle">Languages and Technologies:</p>
+            <p id="progTitle">Proficient with these Languages and Technologies:</p>
             <div id="programming">
                 <img src="assets/image/python-original.svg">
                 <img src="assets/image/cplusplus-original.svg">
@@ -27,38 +33,64 @@ title: Home
                 <img src="assets/image/linux-original.svg">
             </div>
         </div>
+        <div id="divider"></div>
         <div id="projects">
             <p id="projectTitle">Projects:</p>
             <div id="projectList">
-                <a href="#">Project 1</a>
-                <a href="#">Project 2</a>
-                <a href="#">Project 3</a>
-                <a href="#">Project 4</a>
+                <div id="projWrapper">
+                    <p id="projSubTitle">This Site</p>
+                    <a href="https://github.com/MochaMethod/MochaMethod.github.io" rel=nofollow>
+                        <img src="assets/image/laptop.jpg">
+                    </a>
+                    <p id="projSubText">
+                        The source code for this portfolio site. Nothing too exciting. I'm not exactly a wizard when it comes to web-dev, but hey, maybe it isn't that bad. Check it out if you want.
+                    </p>
+                </div>
+                <div id="projWrapper">
+                    <p id="projSubTitle">Javascript Browser Game</p>
+                    <a href="https://github.com/MochaMethod/BallGame" rel=nofollow>
+                        <img src="assets/image/ballgame.png">
+                    </a>
+                    <p id="projSubText">
+                        Tossed this together a while back as a working example of a basic browser game. The idea is to bump into the blue circles while avoiding the red ones.
+                    </p>
+                </div>
+                <div id="projWrapper">
+                    <p id="projSubTitle">Excel File Generator</p>
+                    <a href="https://github.com/MochaMethod/FileGenerator" rel=nofollow>
+                        <img src="assets/image/binders.jpg">
+                    </a>
+                    <p id="projSubText">
+                        Creates excel files full of testing data. This was originally written in Python, but I rewrote it in an attempt to familiarize myself with the C programming language.
+                    </p>
+                </div>
+                <div id="projWrapper">
+                    <p id="projSubTitle">C# Text Adventure Game</p>
+                    <a href="https://github.com/MochaMethod/textAdventure" rel=nofollow>
+                        <img src="assets/image/map.jpg">
+                    </a>
+                    <p id="projSubText">
+                        One of my more recent projects. I want to create a "Choose Your Own Adventure" game with a nostalgic feel. C# has been a favorite of mine since I had the chance to work with the Unity3D game engine. 
+                    </p>
+                </div>
             </div>
         </div>
         <div id="divider"></div>
+        <p id="blogTitle">Blog Post:</p>
         <div id="blogPosts">
-            <p id="blogTitle">Blog Post:</p>
             <ul>
                 {% for post in site.posts limit:1 %}
-                  <li>
+                    <li>
                     <p>
-                      <a href="{{ post.url }}">{{ post.title }}</a>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
                     </p>
-                    <p>{{ post.date }}</p>
+                    <p id="blogDate">{{ post.date }}</p>
                     <p>{{ post.excerpt }}</p>
-                  </li>
+                    </li>
                 {% endfor %}
-              </ul>
-              <a id="viewMore" href="./blog.html">View more...</a>
+                </ul>
+                <a id="viewMore" href="./blog.html">View more...</a>
         </div>
-    </section>  
-    <div id="divider"></div>
-    <footer>
-        <div>
-            <a href="#">Github</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
-        </div>
-    </footer>
-</div>
+        <div id="divider"></div>
+    </div>
+</section>  
