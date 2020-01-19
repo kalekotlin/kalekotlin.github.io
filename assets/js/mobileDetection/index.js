@@ -30,6 +30,7 @@ function detectMobileByAgent() {
 if (detectMobileByResolution() || detectMobileByAgent())
 {
     document.getElementById("mainSect").style.fontSize = "3em";
+
 }
 else 
 {
