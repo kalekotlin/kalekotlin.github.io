@@ -1,8 +1,20 @@
 ---
-layout: default
+layout: defaultContact
 title: Contact
 ---
 
 <div id="contact">
     <h1>Contact Me</h1>
+    <div id="contact">
+        <form action="https://formspree.io/xeqapwdl" method="POST">
+            <p>Name:</p>
+            <input id="contactInputName" type="text" name="name" required>
+            <input type="hidden" name="_subject" value="New submission!" required>
+            <p>Email:</p>
+            <input id="contactInputEmail" type="email" name="_replyto">
+            <p>Message:</p>
+            <input id="contactInputMessage" type="text" name="_message" value="" wrap="physical" rows="1" cols="60" required>
+            <input id="contactSubmit" type="submit" value="Send" disabled>
+          </form>
+    </div>
 </div>

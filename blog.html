@@ -2,16 +2,24 @@
 layout: default
 title: Blog
 ---
-<h1>Latest Posts</h1>
+<div id="blogPageWrapper">
+  <div id="blogIntro">
+    <h1 id="latestPostsTitle">Latest Posts</h1>
+    <p id="postsSubTitle">
+      These blog posts are written for no one in particular. I guess I'm writing them for my own sake. If someone does happen upon these at any point in time, I hope they enjoy them. If nothing else, I at least hope they provide some insight into who I am and how I think.
+    </p>
+  </div>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <p>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </p>
-      <p>{{ post.date }}</p>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <p>
+          <p id="blogPageDate">{{ post.date | date_to_string}}</p>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </p>
+        <p id="blogPageExcerpt">{{ post.excerpt }}</p>
+      </li>
+      <div id="divider"></div>
+    {% endfor %}
+  </ul>
+</div>

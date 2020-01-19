@@ -29,7 +29,8 @@ body
 #name
 {
     text-decoration: underline;
-    text-decoration-color: #bfedef;
+    text-decoration-color: #98E2C6;
+    text-decoration-thickness: 0.15em;
     height: 1em;
     font-weight: bold;
 }
@@ -48,7 +49,7 @@ body
     width: 1em;
     height: 1em;
     margin-left: 0.5em;
-    margin-right: 0.25;
+    margin-right: 0.5em;
 }
 .fab fa-linkedin
 {
@@ -59,11 +60,12 @@ body
 {
     border-radius: 0.25em;
     background-color: #bbc7ce;
-    width: 60%
+    width: 60%;
 }
-#headerWrapper h1
+#me
 {
-    color: #545c52;
+    font-size: 2em;
+    color: #98E2C6 !important; 
     text-shadow: -3px 0 #545c52, 0 1px #545c52, 1px 0 #545c52, 0 -1px #545c52;
 }
 #wrapper
@@ -97,6 +99,77 @@ body
 #navbar p
 {
     margin-right: 6em;
+}
+
+/*Contact*/
+#contact 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.25em;
+    background-color: #bbc7ce;
+    width: 60%;
+}
+
+#contact h1
+{
+    margin-top: 2em;
+    font-size: 2em;
+    color: #98E2C6 !important; 
+    text-shadow: -3px 0 #545c52, 0 1px #545c52, 1px 0 #545c52, 0 -1px #545c52;
+}
+
+#contact form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#contact p
+{
+    line-height: 0.1em;
+    font-size: 0.5em;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+#contactInputName
+{
+    margin: 0.5em;
+    padding: 5px;
+    height: 2em;
+    width: 100%;
+    font-size: 0.75em;
+}
+#contactInputEmail
+{
+    margin: 0.5em;
+    padding: 5px;
+    height: 2em;
+    width: 100%;
+    font-size: 0.75em;
+}
+#contactInputMessage
+{
+    margin: 0.5em;
+    width: 100%;
+    padding: 5px 5px 400px 5px;
+    font-size: 0.75em;
+}
+#contactSubmit
+{
+    margin: 1em;
+    box-shadow: 3px 4px 0px 0px #333832;
+	background-color: #484948;
+	border-radius: 5px;
+	border: 1px solid #545c52;
+	color: darkgrey;
+	font-size: 0.75em;
+	font-weight: bold;
+	padding: 12px 44px;
+	text-shadow: 0px 1px 0px #545c52;
 }
 
 /*Intro*/
@@ -239,6 +312,58 @@ body
 }
 
 /*Blog page*/
+#blogPageWrapper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.25em;
+    background-color: #bbc7ce;
+    width: 60%
+}
+#blogPageWrapper ul
+{
+    margin-right: 1em;
+    margin-left: 1em;
+    list-style-type: none;
+    width: 75%
+}
+#blogPageDate 
+{
+    font-size: 0.5em;
+}
+#blogPageWrapper ul li p
+{
+    font-size: 0.75em;
+}
+#blogPageWrapper ul li h1
+{
+    font-size: 1em;
+}
+
+#blogIntro
+{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#latestPostsTitle
+{
+    margin-right: 1em;
+    margin-left: 1em;
+    font-size: 2em;
+    color: #98E2C6 !important; 
+    text-shadow: -3px 0 #545c52, 0 1px #545c52, 1px 0 #545c52, 0 -1px #545c52;
+}
+#postsSubTitle
+{
+    margin-right: 1em;
+    margin-left: 1em;
+    font-size: 0.75em;
+    width: 50%;
+}
+
 #post
 {
     display: flex;
