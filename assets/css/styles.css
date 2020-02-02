@@ -20,7 +20,7 @@ body
 {
     display: flex;
     justify-content: center;
-    padding-top: 2em;
+    padding-top: 4em;
 }
 
 /*Nav*/
@@ -28,18 +28,6 @@ body
 {
     display: flex;
     justify-content: center;
-}
-
-#navigationElem
-{
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
-    background-color: #FBFBFB;
-    padding-right: 3em;
 }
 
 #navigationElem a 
@@ -50,10 +38,25 @@ body
 /*Home page*/
 @media only screen and (max-width: 1024px) 
 {
+    #navigationElem
+    {
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        justify-content: center;
+        top: 0;
+        width: 100%;
+        box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
+        background-color: #FBFBFB;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 1.15em;
+    }
+
     #general
     {
-        max-width: 95%;
-        min-width: 25%;
+        max-width: 100%;
+        min-width: 100%;
         max-height: 95%;
         min-height: 75%;
         color: #313638;
@@ -64,13 +67,15 @@ body
     #intro h2
     {
         font-size: 1.25em;
-        width: 85%;
+        max-width: 100%;
+        min-width: 100%;
     }
 
     #intro h3
     {
         font-size: 1.15em;
-        width: 95%;
+        max-width: 100%;
+        min-width: 100%;
     }
 
     #skills
@@ -100,10 +105,37 @@ body
         margin: 1em;
         box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
     }
+
+    #introWrapper
+    {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    #skillsWrapper
+    {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 }
 
 @media only screen and (min-width: 1025px)
 {
+    #navigationElem
+    {
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
+        background-color: #FBFBFB;
+        padding-top: 1em;
+        padding-right: 5em;
+        padding-bottom: 1em;
+        font-size: 1.15em;
+    }
+
     #general
     {
         max-width: 60%;
@@ -134,11 +166,16 @@ body
         justify-content: center;
         flex-direction: column;
     }
-}
 
-#introWrapper
-{
-    margin: 1em;
+    #introWrapper
+    {
+        margin: 1em;
+    }
+
+    #skillsWrapper
+    {
+        margin: 1em;
+    }
 }
 
 #intro
@@ -176,11 +213,6 @@ body
 {
     font-size: 0.85em;
     width: 95%;
-}
-
-#skillsWrapper
-{
-    margin: 1em;
 }
 
 #skills
