@@ -66,6 +66,11 @@ body
         width: 99%;
     }
 
+    #introIcons img
+    {
+        width: 60%;
+    }
+
     #contact
     {
         margin: 1em;
@@ -191,6 +196,11 @@ body
     #general
     {
         width: 50%;
+    }
+
+    #introIcons img
+    {
+        width: 40%;
     }
 
     #contact
@@ -345,11 +355,6 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#introIcons img
-{
-    width: 60%;
 }
 
 #intro h1
