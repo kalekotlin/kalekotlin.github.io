@@ -64,6 +64,21 @@ body
         flex-wrap: wrap;
     }
 
+    #contact
+    {
+        background-color: #FBFBFB;
+        padding: 1em;
+        max-width: 89.5%;
+        min-width: 89.5%;
+        max-height: 95%;
+        min-height: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.9em;
+        box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
+    }
+
     #intro h2
     {
         font-size: 1.25em;
@@ -147,6 +162,19 @@ body
         flex-wrap: wrap;
     }
 
+    #contact
+    {
+        background-color: #FBFBFB;
+        margin-top: 1em;
+        max-width: 60%;
+        min-width: 25%;
+        max-height: 95%;
+        min-height: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     #listWrapper
     {
         display: flex;
@@ -156,8 +184,8 @@ body
 
     #skills ul
     {
-        max-width: 25%;
-        min-width: 25%;
+        max-width: 50%;
+        min-width: 50%;
         background-color: #E8E9EB;
         margin: 1em;
         box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
@@ -188,6 +216,19 @@ body
     box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
 }
 
+#contactMe
+{
+    box-shadow: 3px 4px 0px 0px #DB5C3D;
+    background-color: #F06543;
+    border: 1px solid #DB5C3D;
+    cursor: pointer;
+    color: #313638;
+    padding: 0.5em;
+    min-width: 5%;
+    text-align: center;
+}
+
+
 #headElem
 {
     font-weight: normal;
@@ -215,6 +256,12 @@ body
     width: 95%;
 }
 
+#skills h3
+{
+    font-size: 0.85em;
+    width: 95%;
+}
+
 #skills
 {
     padding: 1em;  
@@ -222,6 +269,7 @@ body
     box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
     display: flex;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     font-size: 1em;
 }
@@ -231,5 +279,18 @@ body
     padding: 0.25em;
 }
 
+/*Contact*/
+#contact form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+#contactInputMessage
+{
+    font-size: 1.15em;
+}
 
 
