@@ -90,6 +90,17 @@ body
         align-items: center;
     }
 
+    #post
+    {
+        margin-top: 1em;
+        width: 99%;
+        background-color: #FBFBFB;
+        box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     #intro h2
     {
         font-size: 1.25em;
@@ -182,6 +193,17 @@ body
     }
 
     #blogIntro
+    {
+        margin-top: 1em;
+        width: 50%;
+        background-color: #FBFBFB;
+        box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #post
     {
         margin-top: 1em;
         width: 50%;
@@ -371,13 +393,84 @@ body
 #marginWrap h1
 {
     font-size: 1.5em;
-    color: #F06543;
 }
 
 #blogIntro ul a
 {
-    font-size: 1.5em;
+    font-size: 2em;
     text-decoration: none;
     border-bottom: 0.25em solid #F06543; 
 }
 
+#blogIntro ul
+{
+    margin-left: -2.5em;
+}
+
+#blogIntroWrapper h1
+{
+    color: #F06543;
+}
+
+#blogPageExcerpt
+{
+    background-color: #E8E9EB;
+    box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#blogIntro li
+{
+    list-style-type: none;
+}
+
+#divider
+{
+    width: 100%;
+    background-color: #F06543;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 1px;
+}
+
+/*Blog post page*/
+#postWrapper
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#postMarginWrap
+{
+    margin: 1em;
+}
+
+#postMarginWrap em
+{
+    font-size: 1em;
+}
+
+#postMarginWrap a
+{
+    text-decoration: none;
+    border-bottom: 0.25em solid #F06543; 
+}
+
+#postDate
+{
+    font-size: 0.7em;
+    margin-top: -1em;
+}
+
+#postDate span
+{
+    font-size: 1.15em;
+    color: #F06543;
+}
+
+#postMarginWrap h1, h2, h3, h4, h5, h6
+{
+    font-weight: normal;
+}
