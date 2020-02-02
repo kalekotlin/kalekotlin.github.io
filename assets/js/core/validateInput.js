@@ -9,7 +9,7 @@ function changeButtonState(button, isButtonEnabled)
         button.style.color = "#313638";
         button.style.padding = "1em";
         button.style.margin = "1em";
-        button.style.minWidth = "8em";
+        button.style.maxWidth = "40%";
         button.disabled = false;
     }
     else
@@ -21,7 +21,7 @@ function changeButtonState(button, isButtonEnabled)
         button.style.color = "#545c52";
         button.style.padding = "1em";
         button.style.margin = "1em";
-        button.style.minWidth = "8em";
+        button.style.maxWidth = "40%";
         button.disabled = true;
     }
 }

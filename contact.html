@@ -7,12 +7,12 @@ title: Contact
     <h1 class=headElem>Contact Me</h1>
     <div id="contactFormWrapper">
         <form action="https://formspree.io/xeqapwdl" method="POST">
-            <p>Name:</p>
+            <p><span>* </span>Name:</p>
             <input id="contactInputName" type="text" name="name" required>
             <input type="hidden" name="_subject" value="New submission!" required>
-            <p>Email:</p>
+            <p><span>* </span>Email:</p>
             <input id="contactInputEmail" type="email" name="_replyto">
-            <p>Message:</p>
+            <p><span>* </span>Message:</p>
             <textarea id="contactInputMessage" value="" wrap="physical" rows=20" cols="30" required></textarea>
             <input id="contactSubmit" type="submit" value="Send" disabled>
           </form>
