@@ -3,97 +3,34 @@ layout: default
 title: Home
 ---
 
-<section id="generalInfo">
-    <div id="wrapper">
+<section id="general">
+    <div id="introWrapper">
         <div id="intro">
-            <div id="headerWrapper">
-                <h1 id=me>MochaMethod</h1>
-                <a href="https://github.com/MochaMethod/" rel=nofollow>
-                    <img src="../assets/image/github-original.svg" rel=nofollow>
-                </a>
-                <a href="https://www.linkedin.com/in/mochamethod" rel=nofoloow>
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </div>
-            <p id="mainIntro">Howdy? I'm <span id="name">Bryce Crist</span>, a programmer, QA testing technician, software release manager, musician, and cook.</p>
-            <p id="subIntro">I have been programming in a variety of languages for 5 years. <br/>In that time, I have become comfortable with a large number of technologies, libraries. I will ...
-            </p>
+            <h1 id="headElem">Mochamethod</h1>
+            <h2 id="headElem">Howdy! My name is <span>Bryce Crist</span>. I'm a software and web developer, QA testing technician and release manager, a musician, and a cook.</h2>
+            <h3 id="headElem">I've been living in Boise, Idaho for a few years now, but originally grew up in the southern portion of the state. As a teenager and young adult, I grew more interested in the technical aspects of my hobbies, which led me from being a simple PC hobbyist into a proficient programmer and QA technician. </h3>
+            <a href="./contact.html">Contact Me!</a>
         </div>
-        <div id="divider"></div>
+    </div>
+    <div id="skillsWrapper">
         <div id="skills">
-            <p id="progTitle">Proficient with these Languages and Technologies:</p>
-            <div id="programming">
-                <img src="assets/image/python-original.svg">
-                <img src="assets/image/cplusplus-original.svg">
-                <img src="assets/image/csharp-original.svg">
-                <img src="assets/image/javascript-original.svg">
-                <img src="assets/image/postgresql-original.svg">
-            </div>
-            <div id="technologies">
-                <img src="assets/image/amazonwebservices-original.svg">
-                <img src="assets/image/dot-net-original.svg">
-                <img src="assets/image/git-original.svg">
-                <img src="assets/image/linux-original.svg">
-            </div>
-        </div>
-        <div id="divider"></div>
-        <div id="projects">
-            <p id="projectTitle">Projects:</p>
-            <div id="projectList">
-                <div id="projWrapper">
-                    <p id="projSubTitle">This Site</p>
-                    <a href="https://github.com/MochaMethod/MochaMethod.github.io" rel=nofollow>
-                        <img src="assets/image/laptop.jpg">
-                    </a>
-                    <p id="projSubText">
-                        The source code for this portfolio site. Nothing too exciting. I'm not exactly a wizard when it comes to web-dev, but hey, maybe it isn't that bad. Check it out if you want.
-                    </p>
-                </div>
-                <div id="projWrapper">
-                    <p id="projSubTitle">Javascript Browser Game</p>
-                    <a href="https://github.com/MochaMethod/BallGame" rel=nofollow>
-                        <img src="assets/image/ballgame.png">
-                    </a>
-                    <p id="projSubText">
-                        Tossed this together a while back as a working example of a basic browser game. The idea is to bump into the blue circles while avoiding the red ones.
-                    </p>
-                </div>
-                <div id="projWrapper">
-                    <p id="projSubTitle">Excel File Generator</p>
-                    <a href="https://github.com/MochaMethod/FileGenerator" rel=nofollow>
-                        <img src="assets/image/binders.jpg">
-                    </a>
-                    <p id="projSubText">
-                        Creates excel files full of testing data. This was originally written in Python, but I rewrote it in an attempt to familiarize myself with the C programming language.
-                    </p>
-                </div>
-                <div id="projWrapper">
-                    <p id="projSubTitle">C# Text Adventure Game</p>
-                    <a href="https://github.com/MochaMethod/textAdventure" rel=nofollow>
-                        <img src="assets/image/map.jpg">
-                    </a>
-                    <p id="projSubText">
-                        One of my more recent projects. I want to create a "Choose Your Own Adventure" game with a nostalgic feel. C# has been a favorite of mine since I had the chance to work with the Unity3D game engine. 
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div id="divider"></div>
-        <p id="blogTitle">Blog Post:</p>
-        <div id="blogPosts">
-            <ul>
-                {% for post in site.posts limit:1 %}
-                    <li>
-                    <p>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </p>
-                    <p id="blogDate">{{ post.date }}</p>
-                    <p>{{ post.excerpt }}</p>
-                    </li>
-                {% endfor %}
+            <h3 id="headElem">I'm proficient with a number of languages and technologies, including:</h3>
+            <div id="listWrapper">
+                <ul>
+                    <li>Python</li>
+                    <li>C#</li>
+                    <li>C/C++</li>
+                    <li>Javascript</li>
+                    <li>HTML/CSS</li>
                 </ul>
-                <a id="viewMore" href="./blog.html">View more...</a>
-        </div>
-        <div id="divider"></div>
+                <ul>
+                    <li>ReactJS</li>
+                    <li>Microsoft Dotnet</li>
+                    <li>Github and Gitlab</li>
+                    <li>Atlassian Jira and Confluence</li>
+                    <li>AWS Lambda, ElasticSearch</li>
+                </ul>
+            </div>  
+        </div>  
     </div>
 </section>  

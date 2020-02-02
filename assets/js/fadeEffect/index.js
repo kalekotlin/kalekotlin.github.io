@@ -16,8 +16,3 @@ function fadeIn() {
 }
 
 fadeIn();
-
-document.getElementById("navigationElement").style.display = "flex";
-document.getElementById("navigationElement").style.justifyContent = "flex-end";
-document.getElementById("navigationElement").style.flexDirection = "row";
-document.getElementById("navigationElement").style.position = "fixed";

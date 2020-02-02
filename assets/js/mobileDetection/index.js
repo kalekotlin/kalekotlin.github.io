@@ -27,6 +27,7 @@ function detectMobileByAgent() {
     }
 }
 
+/*
 var displayMobileNav = false;
 
 var element = document.getElementsByClassName("mainContent");
@@ -49,7 +50,7 @@ function enableMobileNav() {
     }
 }
 
-/*if (detectMobileByResolution() || detectMobileByAgent())
+if (detectMobileByResolution() || detectMobileByAgent())
 {
     // Set width and height for mobile
     element[0].style.maxWidth = "100%";
