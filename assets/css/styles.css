@@ -281,19 +281,26 @@ body
     justify-content: center;
 }
 
-#intro a
+#introIcons div
 {
-    width: 50%;
-    margin-left: -2em;
-    margin-right: -2em;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 10%;
+}
+
+#introIcons div a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #introIcons img
 {
-    width: 15%;
+    width: 60%;
 }
 
 #intro h1
