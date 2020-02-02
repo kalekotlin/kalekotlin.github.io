@@ -484,9 +484,14 @@ body
 
 }
 
-#marginWrap p
+#blogPagePostTitle
 {
-    font-size: 0.7em;
+    font-size: 0.75em;
+}
+
+#blogPageDate
+{
+    font-size: 1em;
 }
 
 #marginWrap h1
@@ -523,13 +528,26 @@ body
     color: #F06543;
 }
 
-#blogPageExcerpt
+#blogPageExcerpt 
 {
     background-color: #fbfbfb;
     box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
     padding: 1em;
     margin-bottom: 1em;
 }
+
+#blogPageExcerpt p
+{
+    font-size: 0.5em;
+    color: #313638;
+}
+
+#blogPageExcerpt
+{
+    font-size: 0.5em;
+    font-weight: normal;
+    color: #313638;
+} 
 
 #blogIntro li
 {
@@ -555,7 +573,9 @@ body
 
 #postMarginWrap
 {
-    margin: 1em;
+    width: 90%;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 #postMarginWrap em
