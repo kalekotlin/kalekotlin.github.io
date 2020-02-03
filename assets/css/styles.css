@@ -45,7 +45,7 @@ body
 }
 
 /*Mobile*/
-@media only screen and (max-width: 1024px) 
+@media only screen and (max-width: 768px) 
 {
     #navigationElem
     {
@@ -175,7 +175,7 @@ body
 }
 
 /*Desktop*/
-@media only screen and (min-width: 1025px)
+@media only screen and (min-width: 769px)
 {
     #navigationElem
     {
@@ -330,7 +330,14 @@ body
 
 .headElem span
 {
-    border-bottom: 0.25em solid #F06543; 
+    color: #F06543; 
+    border-bottom: 0.25em solid #313638;
+}
+
+#blogLink
+{
+    border-bottom: 0.25em solid #F06543;
+    text-decoration: none;
 }
 
 #introIcons
@@ -579,8 +586,8 @@ body
 #postMarginWrap
 {
     width: 90%;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin-bottom: 3em;
+    margin-top: 3em;
 }
 
 #postMarginWrap em
