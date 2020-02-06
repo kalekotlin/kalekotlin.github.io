@@ -1,10 +1,10 @@
 ---
 layout: post
 author: Bryce Crist (Mochamethod)
+title: First Post
 ---
-## Here it goes...
-
-&nbsp;&nbsp;&nbsp;&nbsp;So... what do I say? I guess the idea is to just start talking about whatever. I might as well start out with a little bit of information about myself. This is a blog, so I have to write *something* down, right? Why not talk about myself?
+## Here it goes...:
+### &nbsp;&nbsp;&nbsp;&nbsp;So... what do I say? I guess the idea is to just start talking about whatever. I might as well start out with a little bit of information about myself. This is a blog, so I have to write *something* down, right? Why not talk about myself?
 
 ------
 

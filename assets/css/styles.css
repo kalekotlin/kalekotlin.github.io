@@ -177,6 +177,11 @@ body
     {
         display: none;
     }
+
+    #blogPageExcerpt 
+    {
+        display: none;
+    }
 }
 
 /*Desktop*/
@@ -331,6 +336,16 @@ body
     {
         font-size: 0.75em;
         margin-top: -0.75em;
+    }
+
+    #blogPageExcerpt 
+    {
+        background-color: #fbfbfb;
+        box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
+        padding: 1em;
+        margin-bottom: 1em;
+        height: 10vw;
+        overflow: hidden;
     }
 
 }
@@ -573,14 +588,6 @@ body
 #blogIntroWrapper h1
 {
     color: #F06543;
-}
-
-#blogPageExcerpt 
-{
-    background-color: #fbfbfb;
-    box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
-    padding: 1em;
-    margin-bottom: 1em;
 }
 
 #blogPageExcerpt p
