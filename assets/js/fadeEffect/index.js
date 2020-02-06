@@ -1,8 +1,8 @@
 function fadeIn() {
-    var op = 0;
-    var element = document.getElementById("mainContent");
+    let op = 0;
+    const element = document.getElementById("mainContent");
 
-    var timer = setInterval(function () {
+    let timer = setInterval(function () {
         if (op >= 1) {
             clearInterval(timer);
         } 

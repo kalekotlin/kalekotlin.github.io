@@ -28,15 +28,15 @@ function changeButtonState(button, isButtonEnabled)
 
 function validateInput()
 {
-    var nameInput = document.getElementById("contactInputName");
-    var emailInput  = document.getElementById("contactInputEmail");
-    var messageInput = document.getElementById("contactInputMessage");
-    var button = document.getElementById("contactSubmit");
+    const nameInput = document.getElementById("contactInputName");
+    const emailInput  = document.getElementById("contactInputEmail");
+    const messageInput = document.getElementById("contactInputMessage");
+    const button = document.getElementById("contactSubmit");
     
-    var timer = setInterval(function () {
+    let timer = setInterval(function () {
         if (nameInput.value != "" && emailInput.value != "" && messageInput.value != "")
         {
-            var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
             if (re.test(String(emailInput.value).toLowerCase())) 
             {
                 changeButtonState(button, true);

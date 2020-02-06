@@ -1,8 +1,18 @@
 ---
-layout: default
+layout: defaultBlog
 title: Blog
 ---
 <div id="blogPageWrapper">
+  <nav id="blogSidebar">
+    <ul>
+      <p>Recent Posts:</p>
+      {% for post in site.posts limit: 10 %}
+        <a href="{{ post.url }}">{{ post.title }} </a>
+        <p id="recentBlogPageDate">{{ post.date | date: '%B %d, %Y' }}</p>
+      <div id="postDivider"></div>
+      {% endfor %}
+    </ul>
+  </nav>
   <div id="blogIntro">
       <div id="marginWrap">
         <div id="blogIntroWrapper">
@@ -17,7 +27,7 @@ title: Blog
             <div id="blogPagePostTitle">
               <p>
                 <a href="{{ post.url }}">{{ post.title }}:</a>
-                <p id="blogPageDate">{{ post.date | date_to_string}}</p>
+                <p class="blogPageDate">{{ post.date | date: '%B %d, %Y'}}</p>
               </p>
             </div>
             <a href="{{ post.url }}">
