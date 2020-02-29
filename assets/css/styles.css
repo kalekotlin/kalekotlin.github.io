@@ -47,6 +47,11 @@ body
 /*Mobile*/
 @media only screen and (max-width: 768px) 
 {
+    main 
+    {
+        font-size: 1.2em;
+    }
+
     #navigationElem
     {
         display: flex;
@@ -58,7 +63,6 @@ body
         background-color: #FBFBFB;
         padding-top: 1em;
         padding-bottom: 1em;
-        font-size: 1.15em;
     }
 
     #general
@@ -113,7 +117,6 @@ body
         display: flex;
         align-items: center;
         flex-direction: column;
-        font-size: 1.15em;
     }
 
     #listWrapper
@@ -151,7 +154,6 @@ body
         padding: 1em;  
         background-color: #FBFBFB;
         box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
-        font-size: 1em;
     }
 
     #projects ul
@@ -343,8 +345,6 @@ body
         background-color: #fbfbfb;
         box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
         padding: 1em;
-        margin-bottom: 1em;
-        height: 10vw;
         overflow: hidden;
     }
 
@@ -381,12 +381,11 @@ body
 .headElem span
 {
     color: #F06543; 
-    border-bottom: 0.25em solid #313638;
 }
 
 #blogLink
 {
-    border-bottom: 0.25em solid #F06543;
+    border-bottom: 0.15em solid #F06543;
     text-decoration: none;
 }
 
@@ -483,7 +482,7 @@ body
 #projects a
 {
     text-decoration: none;
-    border-bottom: 0.25em solid #F06543; 
+    border-bottom: 0.15em solid #F06543; 
 }
 
 /*Contact*/
@@ -577,7 +576,7 @@ body
 {
     font-size: 2em;
     text-decoration: none;
-    border-bottom: 0.25em solid #F06543; 
+    border-bottom: 0.15em solid #F06543; 
 }
 
 #blogIntro ul
@@ -647,7 +646,7 @@ body
 #postMarginWrap a
 {
     text-decoration: none;
-    border-bottom: 0.25em solid #F06543; 
+    border-bottom: 0.15em solid #F06543; 
 }
 
 #postDate
