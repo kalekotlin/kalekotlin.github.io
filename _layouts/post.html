@@ -8,7 +8,7 @@ layout: defaultPost
             <a href="../../../blog.html">Return to Blog Posts</a>
             <div id="divider"></div>
             <h1 class="headElem">{{ page.title }}</h1>
-            <p id="postDate"><span>{{ page.author }}</span>: {{ page.date | date_to_string }}</p>
+            <p id="postDate"><span>{{ page.author }}</span>: {{ page.date | date: '%B %d, %Y'}}</p>
 
             {{ content }}
         </div>
