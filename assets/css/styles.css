@@ -12,7 +12,7 @@ body
 {
     background-color: #E8E9EB;
     font-family: 'Roboto', sans-serif;
-    line-height: 1.75em;
+    line-height: 1.85em;
 }
 
 #mainSect
@@ -96,6 +96,7 @@ body
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     #post
@@ -182,7 +183,21 @@ body
 
     #blogPageExcerpt 
     {
+        max-width: 50%;
         display: none;
+    }
+
+    #postMarginWrap span
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #postMarginWrap img
+    {
+        width: 240px;
+        height: 360px;
     }
 }
 
@@ -233,9 +248,28 @@ body
         width: 50%;
         background-color: #FBFBFB;
         box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
+    }
+
+    #blogIntro ul 
+    {
+        min-width: 75%;
+        padding-right: 40px;
+    }
+
+    #blogIntro ul li
+    {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+    }
+
+    #blogIntro ul li a
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     #post
@@ -346,8 +380,21 @@ body
         box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
         padding: 1em;
         overflow: hidden;
+        max-width: 60%;
     }
 
+    #postMarginWrap span
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #postMarginWrap img
+    {
+        width: 120px;
+        height: 180px;
+    }
 }
 
 #intro
@@ -576,12 +623,6 @@ body
 {
     font-size: 2em;
     text-decoration: none;
-    border-bottom: 0.15em solid #F06543; 
-}
-
-#blogIntro ul
-{
-    margin-left: -2.5em;
 }
 
 #blogIntroWrapper h1
@@ -655,7 +696,7 @@ body
     margin-top: -1em;
 }
 
-#postDate span
+#author
 {
     font-size: 1.15em;
     color: #F06543;
@@ -664,4 +705,20 @@ body
 #postMarginWrap h1, h2, h3, h4, h5, h6
 {
     font-weight: normal;
+}
+
+#postMarginWrap span
+{
+    padding: 0.5em;
+    max-width: 100%;
+    border-style: solid;
+    border-color: #313638;
+}
+
+#postMarginWrap img
+{
+    margin: 0.5em;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #313638;
 }

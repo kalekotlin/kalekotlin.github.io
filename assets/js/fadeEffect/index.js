@@ -12,7 +12,7 @@ function fadeIn() {
         if (window.getComputedStyle(element).getPropertyValue("opacity") > 1) {
             return;
         }
-    }, 25);
+    }, 50);
 }
 
 fadeIn();
