@@ -460,6 +460,14 @@ body
     align-items: center;
 }
 
+#introIcons img
+{
+    margin-right: 2em;
+    margin-left: 2em;
+    width: 2em;
+    height: 2em;
+}
+
 #intro h1
 {
     color: #F06543;
