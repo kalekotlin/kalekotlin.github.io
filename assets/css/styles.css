@@ -50,6 +50,22 @@ body
     main 
     {
         font-size: 1.2em;
+        overflow-x: hidden;
+    }
+
+    footer div
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    footer div a
+    {
+        margin-left: 1em;
+        margin-right: 1em;
     }
 
     #navigationElem
@@ -217,6 +233,21 @@ body
         padding-right: 10em;
         padding-bottom: 1em;
         font-size: 1.15em;
+    }
+
+    footer div
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    footer div a
+    {
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 1em;
     }
 
     /*Main page styles*/
@@ -729,4 +760,20 @@ body
     cursor: pointer;
     border-style: solid;
     border-color: #313638;
+}
+
+/*Footer*/
+footer
+{
+    margin-top: 1em;
+    width: 100%;
+    background: #fbfbfb;
+    text-align: center;
+}
+
+footer p
+{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
 }
