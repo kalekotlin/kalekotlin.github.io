@@ -68,10 +68,10 @@ He goes onto say "don[']t push that garbage on me". Which again, is funny for ob
 
 &nbsp;&nbsp;&nbsp;&nbsp;8. "Rights". What "rights" are you looking to protect? You're a middle-class, white, male property owner. If anything, dad, you're apart of a class and identity that arguably has the most rights. Also, the fact that your only solution involves violence of some sort against someone, makes me laugh. Ignorance, plain and simple.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;9. I'M THE TRUE SCOTSMAN! Again with the whole "you're not a _real_ American™, you're just a pussy commie bitch" shit. Progressive make progress. Not conservatives, not middle of the road corporate democrats. Why has everyone forgotten about FDR?     
+&nbsp;&nbsp;&nbsp;&nbsp;9. I'M THE TRUE SCOTSMAN! Again with the whole "you're not a _real_ American™, you're just a pussy commie bitch" shit. Progressives make progress. Not conservatives, not middle of the road corporate democrats. Why has everyone forgotten about FDR?     
 
 -----
 
 &nbsp;&nbsp;&nbsp;&nbsp;I really could go on forever. Nearly every belief and ideal that man has spewed out over the years is built on fear and insecurities. Gaslight, obstruct, project.   
 
-&nbsp;&nbsp;&nbsp;&nbsp;I really wish I could sit down and have an adult conversation with him. But, unfortunately, he's a brick wall who _just doesn't have the brains to bother_. Not to mention, I'd have to spend hours just explaining the context around the topics we'd be discussing. "Nobody knew ~~health care~~ everything could be so complicated'.
+&nbsp;&nbsp;&nbsp;&nbsp;I really wish I could sit down and have an adult conversation with him. But, unfortunately, he's a brick wall who _just doesn't have the brains to bother_. Not to mention, I'd have to spend hours just explaining the context around the topics we'd be discussing. "Nobody knew ~~health care~~ everything could be so complicated".

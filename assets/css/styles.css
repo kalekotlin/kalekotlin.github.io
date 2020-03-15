@@ -6,6 +6,7 @@
 #E0DFD5 - Gainsboro
 #E8E9EB - Platinum
 #F06543 - Tomato
+#5bc3eb - Blue Jeans
 */
 
 body
@@ -39,9 +40,22 @@ body
     justify-content: center;
 }
 
+#navWrapper
+{
+    display: none;
+}
+
 #navigationElem a 
 {
-    padding: 0.25em;
+    padding: 0.5em;
+    min-width: 30%;
+    text-align: center;
+}
+
+#navigationElem a:hover
+{
+    background-color: #F06543;
+    color: #f2f2f2 !important;
 }
 
 /*Mobile*/
@@ -72,13 +86,19 @@ body
     {
         display: flex;
         position: fixed;
+        flex-direction: row;
         justify-content: center;
         top: 0;
         width: 100%;
         box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
         background-color: #FBFBFB;
-        padding-top: 1em;
-        padding-bottom: 1em;
+    }
+
+    #navWrapper
+    {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     #general
@@ -165,6 +185,11 @@ body
         margin-bottom: 1em;
     }
 
+    #projectsWrapper
+    {
+        display: none;
+    }
+
     #projects
     {     
         align-items: center;
@@ -229,10 +254,11 @@ body
         width: 100%;
         box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
         background-color: #FBFBFB;
-        padding-top: 1em;
+        padding-top: 0em;
         padding-right: 10em;
-        padding-bottom: 1em;
+        padding-bottom: 0em;
         font-size: 1.15em;
+        height: 0;
     }
 
     footer div
@@ -348,12 +374,18 @@ body
         margin-bottom: 1em;
     }
 
+    #projectsWrapper
+    {
+        display: none;
+    }
+
     #projects
     {     
         padding: 1em;  
         background-color: #FBFBFB;
         box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
         font-size: 1em;
+        
     }
 
     #projects ul

@@ -35,6 +35,7 @@ function increaseImageSize(elem)
             elem.style.width = "120px";
             elem.style.height = "180px";
         }
+        elem.style.boxShadow = null;
         elem.classList.remove("enlargedImageThumbnail");
         elem.classList.add("imageThumbnail");
     }
