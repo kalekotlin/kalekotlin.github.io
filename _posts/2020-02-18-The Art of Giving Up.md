@@ -4,7 +4,7 @@ author: Bryce Crist (Mochamethod)
 title: The Art of Giving Up
 --- 
 ## Wasting time every chance I get:
-### &nbsp;&nbsp;&nbsp;&nbsp;How I spent years perfecting the craft of giving up and moving on.  
+### &nbsp;&nbsp;How I spent years perfecting the craft of giving up and moving on.  
 
 &nbsp;&nbsp;&nbsp;&nbsp;I do this thing -- and I'm sure many of you do it as well -- where I decide that I want to start a new project, and I get it all of my various ducks in a row, and I put about a day's effort into it, and I then I just kind of... give up. Unlike that run-on sentence, I tend to stop fairly early on in my thought processes. My ideas are generally half-baked, and even if they weren't, it's not like I'd ever get them to fruition. I start and stop projects like people who go on date after date with person after person. I'm interested for the first little bit, but after a small while, I usually decide that my time would be better spent elsewhere. Or I decide that I'm simply not worthy of contributing, and sulk away into the shadows. This has been going on for years at this point. I think "Hey, I want to learn this *thing*". So I try to learn the *thing*, only to find out the people who made the *thing* are way more intelligent and proficient at their craft than I could ever dream to be. So I try my best to slap together some working prototype that implements what I learned about the *thing*, but it usually turns out to be some sort of Frankenstein's monster. Except, I can't even get the monster to live. It just sits there, dead and useless, like all of my other creations.   
 

@@ -96,6 +96,7 @@ body
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     #post
@@ -182,6 +183,7 @@ body
 
     #blogPageExcerpt 
     {
+        max-width: 50%;
         display: none;
     }
 }
@@ -233,9 +235,28 @@ body
         width: 50%;
         background-color: #FBFBFB;
         box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
+    }
+
+    #blogIntro ul 
+    {
+        min-width: 75%;
+        padding-right: 40px;
+    }
+
+    #blogIntro ul li
+    {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+    }
+
+    #blogIntro ul li a
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     #post
@@ -346,6 +367,7 @@ body
         box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
         padding: 1em;
         overflow: hidden;
+        max-width: 60%;
     }
 
 }
@@ -576,12 +598,6 @@ body
 {
     font-size: 2em;
     text-decoration: none;
-    border-bottom: 0.15em solid #F06543; 
-}
-
-#blogIntro ul
-{
-    margin-left: -2.5em;
 }
 
 #blogIntroWrapper h1
