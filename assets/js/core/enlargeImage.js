@@ -7,14 +7,16 @@ function increaseImageSize(elem)
         if (images[i] != elem) 
         {
             images[i].style.overflow = "hidden";
-            if (window.matchMedia("(max-width: 768px)"))
+            if (window.matchMedia("(max-Width: 1049px)"))
             {
-                images[i].style.width = "240px";
+                images[i].style.minWidth = "240px";
+                images[i].style.maxWidth = "240px";
                 images[i].style.height = "360px";
             }
             else
             {
-                images[i].style.width = "120px";
+                images[i].style.minWidth = "120px";
+                images[i].style.maxWidth = "120px";
                 images[i].style.height = "180px";
             }
             images[i].classList.remove("enlargedImageThumbnail");
@@ -24,14 +26,16 @@ function increaseImageSize(elem)
 
     if (elem.className === "enlargedImageThumbnail")
     {
-        if (window.matchMedia("(max-width: 768px)"))
+        if (window.matchMedia("(max-Width: 1049px)"))
         {
-            elem.style.width = "240px";
+            elem.style.minWidth = "240px";
+            elem.style.maxWidth = "240px";
             elem.style.height = "360px";
         }
         else
         {
-            elem.style.width = "120px";
+            elem.style.minWidth = "120px";
+            elem.style.maxWidth = "120px";
             elem.style.height = "180px";
         }
         elem.style.boxShadow = null;
@@ -42,7 +46,8 @@ function increaseImageSize(elem)
     {
         elem.style.boxShadow = "0 2px 2px #C6C8C8, 0 2px 3px #C6C8C8";
         elem.style.overflow = null;
-        elem.style.width = "360px";
+        elem.style.minWidth = "360px";
+        elem.style.maxWidth = "360px";
         elem.style.height = "620px"; 
 
         elem.classList.remove("imageThumbnail");
