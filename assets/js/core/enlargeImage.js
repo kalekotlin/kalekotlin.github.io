@@ -7,7 +7,7 @@ function increaseImageSize(elem)
         if (images[i] != elem) 
         {
             images[i].style.overflow = "hidden";
-            if (window.matchMedia("(max-Width: 1049px)"))
+            if (window.matchMedia("(max-Width: 1049px)").matches == true)
             {
                 images[i].style.minWidth = "240px";
                 images[i].style.maxWidth = "240px";
@@ -19,14 +19,15 @@ function increaseImageSize(elem)
                 images[i].style.maxWidth = "120px";
                 images[i].style.height = "180px";
             }
+            elem.style.boxShadow = null;
             images[i].classList.remove("enlargedImageThumbnail");
             images[i].classList.add("imageThumbnail");
         }
     }
 
-    if (elem.className === "enlargedImageThumbnail")
+    if (elem.classList.contains("enlargedImageThumbnail"))
     {
-        if (window.matchMedia("(max-Width: 1049px)"))
+        if (window.matchMedia("(max-Width: 1049px)").matches == true)
         {
             elem.style.minWidth = "240px";
             elem.style.maxWidth = "240px";
