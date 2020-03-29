@@ -52,12 +52,6 @@ body
     text-align: center;
 }
 
-#navigationElem a:hover
-{
-    background-color: #F06543;
-    color: #f2f2f2 !important;
-}
-
 /*Mobile*/
 @media only screen and (max-width: 768px) 
 {
@@ -260,6 +254,14 @@ body
         font-size: 1.15em;
         height: 0;
     }
+
+    
+    #navigationElem a:hover
+    {
+        background-color: #F06543;
+        color: #f2f2f2 !important;
+    }
+
 
     footer div
     {

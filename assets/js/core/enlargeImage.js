@@ -1,6 +1,5 @@
-const mobile = window.matchMedia("(max-width: 768px)");
 let images = document.getElementsByTagName("IMG");
-mobile.matches === true ? console.log("Mobile") : console.log("Desktop");
+
 function increaseImageSize(elem)
 {
     for (let i=0; i<images.length; i++)
@@ -8,7 +7,7 @@ function increaseImageSize(elem)
         if (images[i] != elem) 
         {
             images[i].style.overflow = "hidden";
-            if (mobile.matches === true)
+            if (window.matchMedia("(max-width: 768px)"))
             {
                 images[i].style.width = "240px";
                 images[i].style.height = "360px";
@@ -25,8 +24,9 @@ function increaseImageSize(elem)
 
     if (elem.className === "enlargedImageThumbnail")
     {
-        if (mobile.matches === true)
+        if (window.matchMedia("(max-width: 768px)"))
         {
+            console.log("Yolo");
             elem.style.width = "240px";
             elem.style.height = "360px";
         }
