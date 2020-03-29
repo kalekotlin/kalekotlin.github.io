@@ -8,11 +8,11 @@ function fadeIn() {
         } 
         element.style.opacity = op;
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-        op += 0.1;
+        op += 0.05;
         if (window.getComputedStyle(element).getPropertyValue("opacity") > 1) {
             return;
         }
-    }, 25);
+    }, 35);
 }
 
 fadeIn();
