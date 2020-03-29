@@ -1,4 +1,4 @@
-/*Color pallete*/
+/*Color palette*/
 /*
 #313638 - Onyx
 #C6C8C8 - Lavender Gray (box shadows)
@@ -155,16 +155,22 @@ body
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: 80%;
     }
 
     #skills ul
     {
-        width: 90%;
+        width: 100%;
         background-color: #FBFBFB;
-        margin: 0.5em;
-        box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
         list-style-type: none;
+        padding-right: 40px;
+    }
+
+    
+    #skills h4 
+    {
+        margin-top: -1em;
+        text-align: center;
     }
 
     #introWrapper
@@ -310,24 +316,7 @@ body
 
     #blogIntro ul 
     {
-        min-width: 75%;
         padding-right: 40px;
-    }
-
-    #blogIntro ul li
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #blogIntro ul li a
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
 
     #post
@@ -347,20 +336,23 @@ body
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
         width: 100%;
     }
 
     #skills ul
     {
-        width: 100%;
+        min-width: 25%;
+        max-width: 25%;
         background-color: #FBFBFB;
-        margin: 1em;
-        box-shadow: 0 1px 2px #C6C8C8, 0 1px 3px #C6C8C8;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-content: center;
         list-style-type: none;
+        text-align: left;
+        padding-right: 40px;
+        margin: 1em;
     }
 
     #introWrapper
@@ -373,6 +365,13 @@ body
     {
         margin-top: 1em;
         margin-bottom: 1em;
+    }
+
+    
+    #skills h4 
+    {
+        margin-right: 1em;
+        text-align: center;
     }
 
     #projectsWrapper
@@ -429,7 +428,7 @@ body
 
     #sidebarBottom 
     {
-        padding: 1em;
+        margin: 1em;
     }
 
     #blogSidebar ul a
@@ -565,7 +564,6 @@ body
 #skills li
 {
     font-size: 1em;
-    margin-left: -2.5em; 
 }
 
 #skills
@@ -674,11 +672,21 @@ body
 #blogPagePostTitle
 {
     font-size: 0.75em;
+    width: 100%;
 }
 
 #blogPagePostTitle p
 {
     margin-top: -0.75em;
+}
+
+#marginWrap ul
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
 }
 
 #marginWrap h1
@@ -722,10 +730,18 @@ body
     color: #313638;
 } 
 
+#marginWrap ul li a 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #blogIntro li
 {
     list-style-type: none;
 }
+
 
 #divider
 {
@@ -736,11 +752,28 @@ body
     height: 1px;
 }
 
+#blogDivider {
+    width: 70%;
+    background-color: #F06543;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 1px; 
+}
+
 #postDivider
 {
     width: 100%;
     background-color: #F06543;
     height: 1px;
+}
+
+.skillsDivider 
+{
+    width: 100%;
+    background-color: #F06543;
+    height: 1px;
+    margin-top: -0.5em;
+    margin-bottom: 1em;
 }
 
 /*Blog post page*/

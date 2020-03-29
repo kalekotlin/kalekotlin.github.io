@@ -26,7 +26,6 @@ function increaseImageSize(elem)
     {
         if (window.matchMedia("(max-width: 768px)"))
         {
-            console.log("Yolo");
             elem.style.width = "240px";
             elem.style.height = "360px";
         }
