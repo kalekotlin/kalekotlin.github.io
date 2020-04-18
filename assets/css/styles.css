@@ -605,7 +605,6 @@ html, body
     margin-bottom: -0.75em;
 }
 
-
 .introButton
 {
     box-shadow: 3px 4px 0px 0px #DB5C3D;
@@ -704,6 +703,12 @@ html, body
 {
     font-size: 1em;
     width: 95%;
+}
+
+#videoIntro
+{
+    max-width: 85%; 
+    text-align: center;
 }
 
 #skills h3
