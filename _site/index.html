@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Home</title> 
-    <link rel="icon" href="/assets/image/book.ico">
+    <title>Blog</title> 
+    <link rel="icon" href="../../../assets/image/book.ico">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Code|Montserrat&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,10 +15,6 @@
   <div id="navWrapper">
     
       <a id="navItem" href="/" style="color: #F06543;">
-        Home
-      </a>
-    
-      <a id="navItem" href="/blog.html" style="color: #f2f2f2;">
         Blog
       </a>
     
@@ -31,153 +27,50 @@
 </nav>
         </div>
         <div id="mainContent">
-            <section id="general">
-    <div id="introWrapper">
+            <div id="blogPageWrapper">
+  <nav id="blogSidebar">
+    <ul>
+      <p>Recent Posts:</p>
+      
+        <a href="/2020/12/01/test.html">First! </a>
+        <p id="recentBlogPageDate">December 01, 2020</p>
+      <div id="postDivider"></div>
+      
+    </ul>
+    <div id="sidebarBottom"></div>
+  </nav>
+  <div id="blogIntro">
+      <div id="marginWrap">
+        <div id="blogIntroWrapper">
+          <h1 class="headElem">Latest Posts</h1>
+          <h3 class="headElem">
+            Hello. I'm a musician, reader, programmer, and food enthusiast. But first and foremost, I'm a cynical pessimist. These blog posts aren't really aimed at any audience in particular. Nor would I expect anyone to care about these in the first place. However, I write with the intention of simply sharing my generally poorly-planned, contrived, and often idiotic ideas. 
+            <br>
+            <br>
+            If you have any questions or comments, toss them into the contact form. 
+          </h3>
+          <div id="blogDivider"></div>
+      </div>
+      <ul>
         
-        <div id="intro">
-            <h1 class="headElem">Mochamethod</h1>
-            <div id="introIcons">
-                <div>
-                    <a href="https://github.com/MochaMethod" rel="nofollow"><img src="assets/image/github.svg"></a>
-                </div> 
-                <div>
-                    <a href="https://twitter.com/_MochaMethod" rel="nofollow"><img src="assets/image/twitter.svg"></a>
-                </div> 
-                <div>
-                    <a href="https://www.instagram.com/brycecrisppy/?hl=en" rel="nofollow"><img src="assets/image/instagram.svg"></a>
-                </div>
+          <li>
+            <div id="blogPagePostTitle">
+              <p>
+                <a href="/2020/12/01/test.html">First!</a>
+                <p class="blogPageDate">December 01, 2020</p>
+              </p>
             </div>
-            <div id="introHeadWrapper">
-                <div id="introParagraph">
-                    <div>            
-                        <h2 class="headElem">Howdy! My name is <span>Bryce Crist</span>. I'm a software QA engineer and functional testing technician by trade.</h2>
-                    </div>
-                    <h3 class="headElem">My other interests include 2D and 3D game development, software and web development, reading novels -- primarily science fiction and fantasy -- playing guitar, biking,and cooking food. If you'd like to know more about me, visit my blog!. I just started posting in February of 2020. More posts will be coming soon!</h3>
-                    <a class="introButton" href="./contact.html">Contact Me</a>
-                    <a class="introButton" href="blog.html">Blog Page</a>
-                    <a class="introButton" href="./assets/docs/Resume - 03-29-2020.pdf">Resume</a>
-                </div>
-                <div id="verticalDivider"></div>
-                <div id="codeIntro">
-                    <div>
-                        <p id="codeClass"><span id="codeClassSpan">class</span> AboutMe (Portfolio):</p>
-                        <p id="codeConst">&nbsp;&nbsp;<span class="codeDefSpan">def</span> __init__(self, contact, resume):</p>
-                        <p id="codeSuper">&nbsp;&nbsp; &nbsp;&nbsp;<span id="codeSuperSpan">super()</span>.__init__(contact, resume)</p>
-                        <p class="codeSelf">&nbsp;&nbsp; &nbsp;&nbsp;<span class="codeSelfSpan">self</span>.name = "Bryce R Crist"
-                        </p>  
-                        <p class="codeSelf">&nbsp;&nbsp; &nbsp;&nbsp;<span class="codeSelfSpan">self</span>.location = "Boise, ID"
-                        </p> 
-                        <p class="codeSelf">&nbsp;&nbsp; &nbsp;&nbsp;<span class="codeSelfSpan">self</span>.contact = <a href="./contact.html">contact</a></p>
-                        <p class="codeSelf">&nbsp;&nbsp; &nbsp;&nbsp;<span class="codeSelfSpan">self</span>.resume = <a href="./assets/docs/Resume - 03-29-2020.pdf">resume</a>
-                        </p>               
-                        <p id="codeGotoSkills">&nbsp;&nbsp;<span class="codeDefSpan">def</span> <a href="#skills">goToSkills(self):</a></p>
-                        <p class="codeSelf">&nbsp;&nbsp; &nbsp;&nbsp;return <a href="#skillsWrapper">Portfolio.skillsSection</a>
-                        </p>  
-                    </div>
-                </div>
-            </div>
-            <div id="divider"></div>
-
-            <div id="videoIntro">
-                <p>I've started a youtube series following an ongoing project of mine in C++! Checkout the <a href="https://www.youtube.com/watch?v=tC7t9lRkcc0&list=PLA3i1KbthiYFT0Yt3l29To-Gsxpbs6dgV">full series here!</a></p>
-            </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/IFbbHdhmEyI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+          </li>
+          <div id="blogDivider"></div>
+        
+      </ul>
     </div>
-    <div id="skillsWrapper">
-        <div id="skills">
-            <h3 class="headElem">Over the past few years, I have had the pleasure of working on a number of projects. The teams I was apart of enabled me to learn various languages, technologies, and methodologies. Here is an overview of what I'm familiar and proficient with:</h3>
-            <div id="listWrapper">
-                <ul id="listUl1">
-                    <h4>Development:</h4>
-                    <div class="skillsDivider"></div>
-                    <li>Python</li>
-                    <li>C# / .Net</li>
-                    <li>C / C++</li>
-                    <li>JS / TS / Node</li>
-                    <li>HTML / CSS</li>
-                    <li>Java / Kotlin</li>
-                    <li>Git</li>
-                </ul>
-                <ul id="listUl2">
-                    <h4>Technologies:</h4>
-                    <div class="skillsDivider"></div>
-                    <li>AWS</li>
-                    <li>Selenium, Espresso</li>
-                    <li>Postman (REST/CRUD)</li>
-                    <li>Agile and Scrum</li>
-                    <li>Github and Gitlab</li>
-                    <li>Atlassian Products</li>
-                    <li>Unity3D and Blender</li>
-                </ul>
-                <ul id="listUl3">
-                    <h4>Everything Else:</h4>
-                    <div class="skillsDivider"></div>
-                    <li>React / Redux</li>
-                    <li>Django</li>
-                    <li>Java Spring</li>
-                    <li>SQL / PostgreSQL</li>
-                    <li>ElasticSearch / NoSQL</li>
-                    <li>Android Studio</li>
-                    <li>Excel / Google Sheets</li>
-                </ul>
-            </div>  
-        </div>  
-    </div>
-    <div id="projectsWrapper">
-        <div id="projects">
-            <ul>
-                <li>
-                    <a href="https://github.com/MochaMethod/MochaMethod.github.io" rel="nofollow">This Website!<div>
-                    <p>Come look at the source code for this website! 
-                    Take a peak at how the magic is made! 
-                    It was made using Jekyll. While Jekyll includes 
-                    website templates, I decided to try a hand at 
-                    designing the site myself. </p>
-                </div></li>
-                </a>
+  </div>
+</div>
 
-                <li><a href="https://github.com/MochaMethod/ChooseYourOwnAdventure" rel="nofollow">Choose Your Own Adventure<div>
-                    <p>An on-going project in C# using dotnet and Sadconsole.
-                        When finished, the game will follow the player character through an average day-in-the-life-of type situation. However, the mood darkens considerably as the game comes to a climax.  
-                    </p>
-                </div></li>
-                </a>
-
-                <li><a href="https://github.com/MochaMethod/BallGame" rel="nofollow">Simple Browser Game Demo<div>
-                    <p>A simple browser game demo I made using
-                        HTML and Javascript. The goal is to avoid
-                        the red circles while trying to collide with the blue ones. 
-                        The size of the player circle increases and decreases depending
-                        on the circle they collide with, adding some challenge to the game.
-                    </p>
-                </div></li>
-                </a>
-                
-                <li><a href="https://github.com/MochaMethod/BallGame" rel="nofollow">Testing Excel File Generator<div>
-                    <p>On numerous occasions, I had need of an excel document
-                        containing testing data, such as names, emails, and phone numbers. Instead of populating the data by hand, I made this 
-                        program. It is now written in plain C; however, it was originally written in Python.
-                    </p>
-                </div></li>
-                </a>
-            </ul>
-        </div>
-    </div>
-</section>  
 
         </div>
     </main>
-    <footer>
-      <p>Bryce R. Crist (MochaMethod)</p>
-      <div id="footerLinks">
-        <a href="https://github.com/MochaMethod/">Personal Github</a>
-        <a href="https://github.com/qlibcrist">Business Github</a>
-        <a href="https://twitter.com/_MochaMethod">Twitter</a>
-        <a href="https://www.instagram.com/brycecrisppy/?hl=en">Instagram</a>
-        <a href="https://www.linkedin.com/in/mochamethod">LinkedIn</a>
-        </div>
-    </footer>
   </body>
-  <script type="text/javascript" src="../assets/js/core/navbar.js"></script>
+  <script type="text/javascript" src="../../../assets/js/core/navbar.js"></script>
 </html>

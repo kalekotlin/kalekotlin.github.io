@@ -35,7 +35,6 @@ html, body
 #mainSect
 {
     padding-top: 5em;
-    padding-bottom: 5em;
     width: 100%;
 }
 
@@ -46,7 +45,6 @@ html, body
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2em;
 }
 
 /*Nav*/
@@ -66,13 +64,19 @@ html, body
 #navigationElem a 
 {
     padding: 0.5em;
-    min-width: 35%;
+    min-width: 50%;
     text-align: center;
 }
 
 /*Mobile*/
 @media only screen and (max-width: 1049px) 
 {
+    html
+    {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
     iframe 
     {
         display: none;
@@ -81,7 +85,6 @@ html, body
     main 
     {
         font-size: 1.2em;
-        overflow-x: hidden;
     }
 
     footer div
