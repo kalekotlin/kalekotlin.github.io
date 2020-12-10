@@ -5,8 +5,8 @@ title: Blog
 <div id="blogPageWrapper">
   <nav id="blogSidebar">
     <ul>
-      <p>Recent Posts:</p>
-      {% for post in site.categories.blog: 10 %}
+      <p>Recent Recipes:</p>
+      {% for post in site.categories.recipe limit: 10 %}
         <a href="{{ post.url }}">{{ post.title | strip_html | strip_newlines | truncate: 25 }} </a>
         <p id="recentBlogPageDate">{{ post.date | date: '%B %d, %Y' }}</p>
       <div id="postDivider"></div>
@@ -17,15 +17,18 @@ title: Blog
   <div id="blogIntro">
       <div id="marginWrap">
         <div id="blogIntroWrapper">
-          <h1 class="headElem">Blog Posts</h1>
+          <h1 class="headElem">Don't Burn the Brocoli!</h1>
           <h3 class="headElem">
-            <p>I'm a musician, reader, programmer, and food enthusiast. I hate some things and like other things.</p>
-            If you have any questions or comments, toss them into the contact form. 
+            <p>Recent Recipes:</p>
+            Hello! I am (was) a professional and hobbyist cook. This page is dedicated to my recipes! Or, rather, recipes I've picked up from various sources.<br>
+            Generally speaking, my measurements, my cooking time, and everything else isn't very precise. However, I hope to provide a some sort of outline for recreating my dishes.
+            <br>
+            Enjoy!
           </h3>
           <div id="blogDivider"></div>
       </div>
       <ul>
-        {% for post in site.categories.blog %}
+        {% for post in site.categories.recipe %}
           <li>
             <div id="blogPagePostTitle">
               <p>

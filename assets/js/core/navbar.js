@@ -1,6 +1,11 @@
 var navbar = document.getElementById("navigationElem");
 var navWrap = document.getElementById("navWrapper");
+var navElems = document.getElementsByClassName("navItem");
 const mobile = window.matchMedia("(max-width: 768px)");
+
+for (i=0; i < navElems.length; i++) {
+    navElems[i].style.display = "none";
+}
 
 if (!mobile.matches)
 {
@@ -28,10 +33,19 @@ if (!mobile.matches)
         }
     
         op += 0.2;
+        if (op >= 5) {
+            for (i=0; i < navElems.length; i++) {
+                navElems[i].style.display = "flex";
+            }
+        }
     }, 10);
+
 }
 else
 {
     navbar.style.height = "3em";
     navWrap.style.display = "flex";
+    for (i=0; i < navElems.length; i++) {
+        navElems[i].style.display = "flex";
+    }    
 }

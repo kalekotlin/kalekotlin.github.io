@@ -1,4 +1,6 @@
 - name: Blog
   link: /
+- name: Recipes
+  link: /recipes.html
 - name: Contact
   link: /contact.html
